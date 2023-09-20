@@ -3,8 +3,6 @@ def zai_thua(n):
         return 1
     else:
         return n * zai_thua(n - 1)
-
-# Nhập số từ bàn phím
 try:
     num = int(input("Nhập một số nguyên không âm: "))
     if num < 0:
