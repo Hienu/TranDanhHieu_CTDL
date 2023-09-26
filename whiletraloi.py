@@ -1,4 +1,4 @@
-print("Món trà sữa yêu thích của Hìn là gì?")
+print("Vị trà sữa yêu thích của Hìn là gì?")
 
 dap_an = "bạc hà"
 
@@ -6,7 +6,7 @@ while True:
     user_answer = input("Mời bạn đoán thử: ")
 
     if user_answer.lower() == dap_an.lower():
-        print("Chính xác! Món trà sữa yêu thích của bạn là bạc hà.")
+        print("Hên đấy, sai lần nữa chết với bà!")
         break  
     else:
-        print("Sai rồi. Hãy thử lại.")
+        print("Xin chúc mừng bạn đã đoán sai rồi :D Hãy thử lại.")
