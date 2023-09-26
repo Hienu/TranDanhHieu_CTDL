@@ -6,7 +6,7 @@ while True:
     user_answer = input("Mời bạn đoán thử: ")
 
     if user_answer.lower() == dap_an.lower():
-        print("Hên đấy, sai lần nữa chết với bà!")
+        print("Hên đấy, sai lần nữa thì liệu hồn!")
         break  
     else:
         print("Xin chúc mừng bạn đã đoán sai rồi :D Hãy thử lại.")
